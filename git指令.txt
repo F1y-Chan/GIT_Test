@@ -8,3 +8,22 @@ git reset --mixed HEAD~1                     撤销上一次提交，文件修�
 
 git checkout main/master                      修改提交分支
 git branch -vv                                           查看本地分支 + 对应远程分支 + 同步状态
+
+# 1. 查看当前分支状态
+git branch -vv
+
+# 2. 切换到 master 分支
+git checkout master
+
+# 3. 拉取远程 master 最新代码
+git pull origin master
+
+# 4. 合并 main 最新代码到 master
+git merge main
+
+# 5. 提交合并结果
+git add .
+git commit -m "将main分支最新内容同步到master分支"
+
+# 6. 推送到 GitHub 远程 master
+git push origin master
