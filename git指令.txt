@@ -5,3 +5,5 @@ git commit -m “备注”                         提交倒库
 git push origin  仓库名字                       推送到github
 
 git reset --mixed HEAD~1                     撤销上一次提交，文件修改会保留在工作区
+
+git checkout main/master                      修改提交分支
