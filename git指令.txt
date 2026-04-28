@@ -2,3 +2,5 @@ git init    初始化本地库
 git remote add origin  http/  绑定github远程仓库
 git add * 提交代码到缓存区
 git commit -m “备注” 提交倒库
+git push origin master 推送到github
+
